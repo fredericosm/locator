@@ -1,0 +1,21 @@
+## Find near friends!
+
+To execute run `./bin/friend_finder <input file> <friend name>`. Ex:
+
+  > ./bin/friend_finder my/file.txt John
+
+The file format should be:
+
+Igor 1 3
+Fred 3 4
+Rafael 4 8
+
+
+## Test the APP
+
+To test the app run plain ruby on test files
+
+  > ruby test/integration.rb
+  > ruby test/unit/friend_test.rb
+
+  and so on...

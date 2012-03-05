@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'little_world'
+
+file_name = ARGV[0]
+friend = ARGV[1]
+
+puts "Finding friends near #{friend}"
+puts LittleWorld::App.new(file_name).find_near(friend)
